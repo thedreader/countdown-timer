@@ -39,6 +39,8 @@
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
       console.log('User signed out.');
+      var list = document.getElementById("user");
+    list.removeChild(list.childNodes[0]);  
     });
   }
 </script>
