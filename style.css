@@ -200,6 +200,7 @@ h2 {
 
     .buttons {
         top: 75%;
+        width: min-content;
     }
     
     .btn {
