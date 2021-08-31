@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Timer</title>
+</head>
+<body>
+    <div id="pop" class="popup">
+        <h1>
+            Time's Up!
+        </h1>
+        <i id="pop-toggle" class="fas fa-times"></i>
+    </div>
+    <h1>Countdown Timer</h1>
+    <i class="far fa-clock"></i>
+    <div class="timer">
+        <div class="time">
+            <h2>Hours</h2>
+            <input type="number" name="" id="hour" value="" placeholder="00" max="23" min="0"> 
+        </div>
+
+        <div class="dots">
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+        </div>
+
+        <div class="time">
+            <h2>Minutes</h2>
+            <input type="number" name="" id="min" value="" placeholder="00" max="59" min="0"> 
+        </div>
+
+        <div class="dots">
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+        </div>
+
+        <div class="time">
+            <h2>Seconds</h2>
+            <input type="number" name="" id="sec" value="" placeholder="00" max="59" min="0"> 
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <button id="start" class="btn"><i class="fas fa-play"></i></button>
+        <button id="reset" class="btn"><i class="fas fa-redo-alt"></i></button>
+        <button id="pause" class="btn"><i class="fas fa-pause"></i></button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/b348e6a2da.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
